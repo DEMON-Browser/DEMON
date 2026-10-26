@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>DEMON</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #000000;
+      color: #FF0000;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .titlebar {
+      height: 42px;
+      background: #000;
+      border-bottom: 1px solid #FF0000;
+      display: flex;
+      align-items: center;
+      padding: 0 16px;
+      font-weight: bold;
+      font-size: 18px;
+      letter-spacing: 3px;
+      gap: 10px;
+    }
+    .toolbar {
+      height: 50px;
+      background: #0a0a0a;
+      border-bottom: 1px solid #CC0000;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 0 12px;
+    }
+    .url-bar {
+      flex: 1;
+      background: #000;
+      border: 1px solid #FF0000;
+      color: #FF0000;
+      padding: 8px 14px;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    .btn {
+      background: transparent;
+      border: 1px solid #FF0000;
+      color: #FF0000;
+      padding: 6px 12px;
+      cursor: pointer;
+      border-radius: 3px;
+      font-size: 13px;
+    }
+    .btn:hover {
+      background: #FF0000;
+      color: #000;
+    }
+    .content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 14px;
+    }
+    h1 {
+      font-size: 64px;
+      letter-spacing: 10px;
+    }
+    .slogan {
+      font-size: 18px;
+      color: #CC0000;
+    }
+    .status {
+      height: 30px;
+      background: #000;
+      border-top: 1px solid #CC0000;
+      display: flex;
+      align-items: center;
+      padding: 0 16px;
+      font-size: 12px;
+      color: #CC0000;
+    }
+  </style>
+</head>
+<body>
+  <div class="titlebar">
+    <span>DEMON</span>
+  </div>
+
+  <div class="toolbar">
+    <button class="btn">←</button>
+    <button class="btn">→</button>
+    <button class="btn">↻</button>
+    <input class="url-bar" placeholder="Enter URL...">
+    <button class="btn">Shield</button>
+    <button class="btn">Fang VPN</button>
+  </div>
+
+  <div class="content">
+    <h1>DEMON</h1>
+    <p class="slogan">Privacy is a right</p>
+    <p>Your privacy must be protected • Fight for privacy</p>
+    <br>
+    <p>Fang VPN • Ultra Private Mode • Ad & Tracker Blocker</p>
+    <p>New identity on every close</p>
+  </div>
+
+  <div class="status">
+    Ultra Private Mode • New ID on Close • Fang VPN: Disconnected
+  </div>
+</body>
+  </html>
